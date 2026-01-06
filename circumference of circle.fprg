@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circumference of circle"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:21:21 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0RFU0tUT1AtTDI3N1AzRjsyMDI2LTAxLTA2OzAyOjU1OjA0IFBNOzI3NjQ="/>
+        <attribute name="edited" value="TEVOT1ZPO0RFU0tUT1AtTDI3N1AzRjsyMDI2LTAxLTA2OzAzOjIxOjIxIFBNOzE7Mjg2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pie, radius, area" type="Integer" array="False" size=""/>
+            <input variable="radius"/>
+            <assign variable="pie" expression="3.14"/>
+            <assign variable="area" expression="2*pie*radius"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

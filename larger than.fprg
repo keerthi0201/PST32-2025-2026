@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="larger than"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:33:37 AM"/>
+        <attribute name="created" value="TEVOT1ZPO0RFU0tUT1AtTDI3N1AzRjsyMDI2LTAxLTA2OzEwOjA5OjM0IEFNOzI3NTA="/>
+        <attribute name="edited" value="TEVOT1ZPO0RFU0tUT1AtTDI3N1AzRjsyMDI2LTAxLTA2OzEwOjMzOjM3IEFNOzE7Mjg1OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <output expression="&quot;completed&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;tryagain&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
